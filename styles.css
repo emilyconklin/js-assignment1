@@ -1,0 +1,110 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+GENERAL 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.container {
+    max-width: 900px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+NAV 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+nav {
+    border-bottom: 1px solid #ededed;
+}
+
+.navbar > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .container ul {
+    display: flex;
+}
+
+nav .container ul li {
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.logo {
+    background: url('./img/logo.svg');
+    background-size: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 30px;
+    width: 30px;
+}
+
+@media (max-width: 600px) {
+    nav .container {
+        padding: 0 30px;
+    }
+
+    nav .container ul {
+        display: none;
+    }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CARDS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Your styles go here */
+
+/* Card Wrapper */
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+   justify-content: center;
+}
+
+/* Cards */
+
+.card {
+  
+    width: 250px;
+    height: 250px;
+    color: white;
+    margin: 5px;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #222;
+    -webkit-box-shadow: 7px 6px 13px 0px rgba(201,201,201,1);
+    -moz-box-shadow: 7px 6px 13px 0px rgba(201,201,201,1);
+    box-shadow: 7px 6px 13px 0px rgba(201,201,201,1);
+}
+
+
+/* Headings */
+
+h3 {
+    font-size: .7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+/* Button */
+
+ .button {
+     width: 75%;
+     font-weight: bolder;
+ }
+
+
